@@ -66,3 +66,7 @@ def tf(y,fs):
      #t1=fs*np.arange(-0.5-(1/len(hzft)),0.5-(1/len(hzft)),(1/len(hzft)))
     t2=fs*np.arange(-0.5-(1/len(phift)),0.5-(1/len(phift)),(1/len(phift)))
     return t1,t2,hzft,phift
+
+plt.plot(t1,ysf,'g')
+plt.plot(r,k,'r--')
+plt.show()
